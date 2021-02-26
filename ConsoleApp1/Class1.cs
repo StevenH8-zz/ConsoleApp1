@@ -89,7 +89,10 @@ namespace BoilerEventAppl
             boilerEvent.LogProcess();
             Console.ReadLine();
             filelog.Close();
+            string m = "hello";
+            
+            Console.WriteLine(m);
         }//end of main
-
+															
     }//end of RecordBoilerInfo
 }
